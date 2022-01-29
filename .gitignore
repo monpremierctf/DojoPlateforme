@@ -1,0 +1,12 @@
+# Ignore code env dir
+*venv/
+*.vscode/
+*__pycache__/
+*.pytest_cache/
+
+# Ignore log files
+*.log
+
+# Ignore system/virtualbox/ dir that contains big files
+system/virtualbox/ovf/
+system/virtualbox/vms/
